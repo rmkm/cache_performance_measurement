@@ -1,3 +1,13 @@
+/*
+ * Cache performance measurement
+ *
+ * Usage: a.out mode step
+ *
+ * mode = 0 : read the same cache line
+ * mode = 1 : read the array step by step
+ * mode = 2 : read the array by using the previous element of the array
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
